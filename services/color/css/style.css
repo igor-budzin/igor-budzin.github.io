@@ -1,0 +1,58 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 400px;
+  margin: 10% auto; }
+  .container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px; }
+  .container .wrapper {
+    width: 100%;
+    margin: 0 0 50px 0;
+    position: relative; }
+    .container .wrapper .color-field {
+      border: none;
+      border-bottom: 2px solid #fa7676;
+      outline: none;
+      height: 40px;
+      font-size: 24px;
+      padding: 0 10px;
+      width: 300px;
+      margin-right: 10px;
+      color: grey; }
+    .container .wrapper .button {
+      border: none;
+      background-color: #fa7676;
+      color: #fff;
+      text-transform: uppercase;
+      height: 44px;
+      width: 70px;
+      background-image: url(../img/copy.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 25px;
+      outline: none;
+      font-size: 20px;
+      position: absolute;
+      top: -2px;
+      right: 0;
+      border-radius: 3px; }
+      .container .wrapper .button:hover {
+        background-color: #f95d5d; }
+      .container .wrapper .button:active {
+        background-color: #f84545; }
+      .container .wrapper .button:disabled {
+        background-color: #ccc; }
+    .container .wrapper p {
+      color: grey;
+      font-size: 16px; }
+      .container .wrapper p a {
+        text-decoration: none;
+        color: #fa7676; }
+        .container .wrapper p a:hover {
+          border-bottom: 1px dashed #fa7676; }
